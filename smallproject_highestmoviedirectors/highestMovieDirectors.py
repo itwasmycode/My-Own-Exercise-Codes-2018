@@ -9,7 +9,6 @@ urlretrieve(movies_url, movies_data)
 
 
 directors = namedtuple('directors', 'name year movie')
-directorRate = namedtuple('directors', 'imdb')
 
 
 def gethighestratedirector(data=movies_data):
